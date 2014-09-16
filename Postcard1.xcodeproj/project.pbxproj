@@ -13,6 +13,8 @@
 		F40A42B419C8C8170049D0B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40A42B319C8C8170049D0B4 /* Images.xcassets */; };
 		F40A42B719C8C8170049D0B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F40A42B519C8C8170049D0B4 /* LaunchScreen.xib */; };
 		F40A42C319C8C8170049D0B4 /* Postcard1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A42C219C8C8170049D0B4 /* Postcard1Tests.swift */; };
+		F40A42CF19C8C94E0049D0B4 /* stamp_italian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F40A42CD19C8C94E0049D0B4 /* stamp_italian.jpg */; };
+		F40A42D019C8C94E0049D0B4 /* Summer-Desktop-Backgrounds-119.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F40A42CE19C8C94E0049D0B4 /* Summer-Desktop-Backgrounds-119.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F40A42BC19C8C8170049D0B4 /* Postcard1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Postcard1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40A42C119C8C8170049D0B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F40A42C219C8C8170049D0B4 /* Postcard1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postcard1Tests.swift; sourceTree = "<group>"; };
+		F40A42CD19C8C94E0049D0B4 /* stamp_italian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stamp_italian.jpg; sourceTree = "<group>"; };
+		F40A42CE19C8C94E0049D0B4 /* Summer-Desktop-Backgrounds-119.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Summer-Desktop-Backgrounds-119.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		F40A42AA19C8C8170049D0B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F40A42CC19C8C94E0049D0B4 /* italian stamp images */,
 				F40A42AB19C8C8170049D0B4 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +115,15 @@
 				F40A42C119C8C8170049D0B4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F40A42CC19C8C94E0049D0B4 /* italian stamp images */ = {
+			isa = PBXGroup;
+			children = (
+				F40A42CD19C8C94E0049D0B4 /* stamp_italian.jpg */,
+				F40A42CE19C8C94E0049D0B4 /* Summer-Desktop-Backgrounds-119.jpg */,
+			);
+			path = "italian stamp images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F40A42B219C8C8170049D0B4 /* Main.storyboard in Resources */,
+				F40A42D019C8C94E0049D0B4 /* Summer-Desktop-Backgrounds-119.jpg in Resources */,
 				F40A42B719C8C8170049D0B4 /* LaunchScreen.xib in Resources */,
+				F40A42CF19C8C94E0049D0B4 /* stamp_italian.jpg in Resources */,
 				F40A42B419C8C8170049D0B4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
